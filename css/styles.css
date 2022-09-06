@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 0, 0, 255;
+  --bs-primary-rgb: 8, 58, 12;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -95,6 +95,10 @@ hr {
   background-color: currentColor;
   border: 0;
   opacity: 0.25;
+}
+
+#personal-text {
+  font-size: 38px;
 }
 
 hr:not([size]) {
@@ -158,6 +162,7 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
 
 abbr[title],
 abbr[data-bs-original-title] {
@@ -237,7 +242,7 @@ sup {
 }
 
 a {
-  color: blue;
+  color: rgb(8, 58, 12);
   text-decoration: underline;
 }
 a:hover {
@@ -11407,6 +11412,9 @@ p.lead {
   font-size: 3rem;
 }
 
+#kids-photo{
+  min-height: 10vh;
+}
 section.resume-section {
   display: flex;
   align-items: center;
@@ -11416,13 +11424,31 @@ section.resume-section {
   padding-bottom: 5rem;
   max-width: 75rem;
 }
+#kids-photo{
+  height: 300px;
+  padding-bottom: 5rem;
+}
+
+#myphoto{
+  height: 450px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
 section.resume-section .resume-section-content {
   width: 100%;
 }
 
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
+  }
+
+  #myphoto{
+    height: 450px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
 }
 @media (min-width: 992px) {
